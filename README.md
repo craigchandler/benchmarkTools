@@ -1,12 +1,13 @@
 # benchmarkTools
-*Based on works by: David Robert Nadeau http://NadeauSoftware.com/
-*Site:    https://github.com/craigchandler/benchmarkTools
-*License: Creative Commons Attribution 3.0 Unported License
+* Based on works by: David Robert Nadeau http://NadeauSoftware.com/
+* Site:    https://github.com/craigchandler/benchmarkTools
+* License: Creative Commons Attribution 3.0 Unported License
          http://creativecommons.org/licenses/by/3.0/deed.en_US
 
 Provides 2 functions for cross platform calls for CPUtime and RealTime benchmarking.
 
 Usage:
+
 To benchmark an algorithm's CPU time, call getCPUTime( ) at the beginning and end, then report the difference.
 ```c++
 double startTime, endTime;
