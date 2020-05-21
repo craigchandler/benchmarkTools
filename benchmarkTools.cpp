@@ -7,6 +7,7 @@
 #include <unistd.h>       /* POSIX flags */
 #include <sys/resource.h>
 #include <sys/times.h>    /* gethrtime(), gettimeofday() */
+#include <sys/time.h>
 #include <time.h>         /* clock_gettime(), time() */
 
 #if defined(__MACH__) && defined(__APPLE__)
